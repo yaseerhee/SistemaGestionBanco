@@ -1,1 +1,1 @@
-# SistemaGesionBanco
+# Sistema Gestión Bancaria
