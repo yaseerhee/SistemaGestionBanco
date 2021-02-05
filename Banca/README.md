@@ -1,14 +1,31 @@
-## Getting Started
+## CLASES
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### NUM ESTADOCUENTA
 
-## Folder Structure
+### CUENTA
 
-The workspace contains two folders by default, where:
+- Titular titular, double saldo, Fecha fecha, String nCuenta
+- Constructor(todo), Constructor(titulos y saldo), ArrayList movimiento que registre todos los datos
+- reintegro(valor:double), ingreso(valor:double) (registra el movimiento), getter, setter, transferencia(cuenta emisor, cuenta receptor, cantidad), imprimirTitularySaldo, metodo ComparaCuentas, metodo enviarTransferencia(destino, importe) y recibirTransferencia(origen, saldo)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Titular
 
-## Dependency Management
+- nombre (String), apellidos (String), numero de identificación (String), edad (int)
+- Constructor, getter, setter, toString
+- imprimirTitular = Nombre Apellidos Edad
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+### Fecha
+
+- dia, mes y año (integer). (date, calendar)
+- Constructores, getter , setter, tostring, comprobarfechaCorrecta
+
+### Movimiento
+
+- Fecha fecha, char Movimiento(R o I), importe real y saldo
+- Constructor, fechaCorrecta().
+
+### PruebaCuentas (TEST)
+
+### CuentaAhorro
+
+#### Comparacion con compareTo(String)

@@ -1,0 +1,54 @@
+Práctica. Objetos, Clases, Herencia.
+Primera parte. Clases y Objetos.
+
+Desarrolla una clase llamada Titular que tenga:
+Las propiedades privadas nombre (String), apellidos (String), numero de identificación (String), edad (int), otros que creas necesarios.
+Uno o varios constructores.
+Un getter para cada uno de los atributos.
+Un setter solo para el edad.
+Método que retorne toda la información del titular.
+
+Desarrolla una clase Fecha que tenga: (date, calendar)
+Las propiedades privadas dia, mes y año de tipo entero las tres.
+Los constructores que creas necesarios.
+Métodos getter y setter: dar y poner fecha.
+Método toString.
+Uno o varios métodos para comprobar si una fecha es correcta. Si la fecha es incorrecta tomamos la fecha del dia. Usa los métodos que ya tenemos hechos.
+
+Desarrolla una clase llamada Cuenta que tenga:
+Los atributos private: uno de tipo Titular, otro de tipo Fecha (fecha de apertura), otro de tipo String (el número de cuenta) y el otro de tipo double (el saldo). Asegúrate de que la fecha es correcta.
+Un constructor con parámetros de tipo Titular, String, Fecha y double.
+Un constructor con parámetros de tipo Titular, y String. El saldo se inicializará a un mínimo establecido.
+Un getter para cada uno de los atributos.
+Un setter solo para el saldo.
+Un método ingresar que incremente el saldo en una cantidad.
+Un método reintegro que decremente el saldo en una cantidad. Sólo si hay saldo.
+Un método para que al imprimir la cuenta salga por pantalla el número de cuenta y su saldo.
+
+Un método para comparar cuentas, sabiendo que dos cuentas serán iguales si sus números de cuenta son iguales.
+
+Desarrolla una clase llamada Movimiento que tenga:
+Los atributos fecha (Fecha o Date), tipo de movimiento (char (R o I)), importe (real) y saldo (real).
+Constructor que inicialice y cree el objeto.
+Asegúrate de que la fecha es correcta.
+Otros que creas que puedes necesitar.
+
+Codifica ahora los siguientes comportamientos en la clase Cuenta:
+Incluye otro atributo de tipo Movimiento, un ArrayList, que registra todos los movimientos, los ingresos y reintegros, de la cuenta.
+Modifica el método ingresar para que registre el movimiento.
+Modifica el método reintegro para que registre el movimiento. Sólo si hay saldo.
+Método para hacer una transferencia a otra cuenta. Los parámetros son la cuenta destino y el importe.
+Método para recibir una transferencia desde otra cuenta. Los parámetros son la cuenta origen y el importe.
+
+Nota 1: Al imprimir por pantalla un Titular saldrá su nombre, apellidos y edad. 
+Nota 2: Para comparar dos String utiliza compareTo(String) que devuelve 0 si son iguales.
+
+Segunda parte. Herencia.
+
+Desarrolla una clase llamada CuentaAhorro que tenga:
+...
+...
+...
+Desarrolla la clase PruebaCuentas que en su método main:
+Crea varias cuentas trabaje con ellas.
+...
