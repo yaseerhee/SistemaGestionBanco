@@ -1,6 +1,7 @@
 Práctica. Objetos, Clases, Herencia.
 Primera parte. Clases y Objetos.
 
+(V)
 Desarrolla una clase llamada Titular que tenga:
 Las propiedades privadas nombre (String), apellidos (String), numero de identificación (String), edad (int), otros que creas necesarios.
 Uno o varios constructores.
@@ -8,6 +9,7 @@ Un getter para cada uno de los atributos.
 Un setter solo para el edad.
 Método que retorne toda la información del titular.
 
+(V)
 Desarrolla una clase Fecha que tenga: (date, calendar)
 Las propiedades privadas dia, mes y año de tipo entero las tres.
 Los constructores que creas necesarios.
@@ -15,6 +17,7 @@ Métodos getter y setter: dar y poner fecha.
 Método toString.
 Uno o varios métodos para comprobar si una fecha es correcta. Si la fecha es incorrecta tomamos la fecha del dia. Usa los métodos que ya tenemos hechos.
 
+(v)
 Desarrolla una clase llamada Cuenta que tenga:
 Los atributos private: uno de tipo Titular, otro de tipo Fecha (fecha de apertura), otro de tipo String (el número de cuenta) y el otro de tipo double (el saldo). Asegúrate de que la fecha es correcta.
 Un constructor con parámetros de tipo Titular, String, Fecha y double.
@@ -24,7 +27,6 @@ Un setter solo para el saldo.
 Un método ingresar que incremente el saldo en una cantidad.
 Un método reintegro que decremente el saldo en una cantidad. Sólo si hay saldo.
 Un método para que al imprimir la cuenta salga por pantalla el número de cuenta y su saldo.
-
 Un método para comparar cuentas, sabiendo que dos cuentas serán iguales si sus números de cuenta son iguales.
 
 Desarrolla una clase llamada Movimiento que tenga:

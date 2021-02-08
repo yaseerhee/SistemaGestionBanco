@@ -5,16 +5,16 @@ public class Titular {
     private Integer edad;
 
     public Titular() {
-        setNombre("");
-        setApellidos("");
-        setIdentificacion("");
+        this.nombre = "";
+        this.apellidos = "";
+        this.identificacion = "";
         setEdad(0);
     }
 
     public Titular(String nombre, String apellidos, String identificacion, int edad) {
-        setNombre(nombre);
-        setApellidos(apellidos);
-        setIdentificacion(identificacion);
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.identificacion = identificacion;
         setEdad(edad);
     }
 
@@ -22,24 +22,12 @@ public class Titular {
         return this.nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
     public String getApellidos() {
         return this.apellidos;
     }
 
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
-    }
-
     public String getIdentificacion() {
         return this.identificacion;
-    }
-
-    public void setIdentificacion(String identificacion) {
-        this.identificacion = identificacion;
     }
 
     public Integer getEdad() {
@@ -56,8 +44,7 @@ public class Titular {
 
     @Override
     public String toString() {
-        return "{" + " nombre='" + getNombre() + "'" + ", apellidos='" + getApellidos() + "'" + ", identificacion='"
-                + getIdentificacion() + "'" + ", edad='" + getEdad() + "'" + "}";
+        return " Nombre: " + getNombre() + ".   " + " Apellidos: " + getApellidos() + ". " + " Identificacion: "
+                + getIdentificacion() + ".  " + " Edad:   " + getEdad() + ". ";
     }
-
 }
