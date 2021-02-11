@@ -137,7 +137,7 @@ public class Fecha {
 
     @Override
     public String toString() {
-        return "Fecha: " + getDia() + "/" + getMes() + "/" + getAnho();
+        return getDia() + "/" + getMes() + "/" + getAnho();
     }
 
 }
